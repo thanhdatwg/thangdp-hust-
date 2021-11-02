@@ -1,0 +1,12 @@
+{
+  "name": "admin-fontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "del":"docker rm appfood-fontend-container  appfood-api-container  pg-docker && docker image rm development_appfood-api development_fontend-app-food postgres "
+  },
+  "author": "",
+  "license": "ISC"
+}
